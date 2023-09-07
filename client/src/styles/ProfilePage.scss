@@ -1,0 +1,25 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  row-gap: 5rem;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    h2 {
+      text-align: center;
+    }
+  }
+
+  .icon {
+    font-size: 8rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  // flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  height: 96vh;
+}
+
+.card {
+  position: relative;
+  background-color: white;
+  height: 500px;
+  width: 300px;
+  border-radius: 20px;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  main {
+    padding-top: 1rem;
+  }
+
+  footer {
+    margin-top: auto;
+    nav {
+      height: 3rem;
+      display: flex;
+      gap: 3rem;
+      justify-content: center;
+      align-items: center;
+
+      a {
+        padding: 1rem;
+        .icon {
+          color: black;
+          font-size: 25px;
+        }
+      }
+
+      a:hover {
+        background-color: beige;
+        border-radius: 30%;
+      }
+    }
+  }
+}

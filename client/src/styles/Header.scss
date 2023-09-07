@@ -1,0 +1,14 @@
+header {
+  a {
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  a:hover {
+    background-color: blanchedalmond;
+    border-radius: 10px;
+  }
+}
